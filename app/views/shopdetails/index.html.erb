@@ -1,0 +1,23 @@
+<h1>Listing shopdetails</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @shopdetails.each do |shopdetail| %>
+      <tr>
+        <td><%= link_to 'Show', shopdetail %></td>
+        <td><%= link_to 'Edit', edit_shopdetail_path(shopdetail) %></td>
+        <td><%= link_to 'Destroy', shopdetail, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Shopdetail', new_shopdetail_path %>

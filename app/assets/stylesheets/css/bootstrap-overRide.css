@@ -1,0 +1,9 @@
+.jumbotron {
+  background-color: rgba(61, 30, 18, 0.18) !important;
+}
+.btn-default {
+  color: #fff !important;
+  background-color: rgba(75, 33, 33, 0.3) !important;
+  border-color: rgba(75, 33, 33, 0)!important;
+  text-shadow:0 -1px 0 rgba(0,0,0,0.2) !important;
+}
